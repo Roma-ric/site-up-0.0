@@ -1,0 +1,30 @@
+.program{
+    width: 20%;
+}
+
+
+table{
+    width: 100%; 
+}
+
+.tableau{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+td,tr{ 
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+
+.tableau1{
+    text-align: right;
+    flex-basis: calc(33.33% - 20px);
+}
+
+       
+       

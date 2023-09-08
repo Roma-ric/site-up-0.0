@@ -1,0 +1,6 @@
+body{
+    margin: 0;
+    background-image: url(../IMAGE/fond_c_d.png);
+    background-size: cover;
+    background-attachment: fixed;
+}

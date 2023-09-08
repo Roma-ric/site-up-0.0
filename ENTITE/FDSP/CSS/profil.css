@@ -1,0 +1,80 @@
+body{
+    /* background: linear-gradient(rgb(48, 48, 48), rgb(66, 66, 66)); */
+    height: 100%;
+    background-image: url(../IMAGE/im-02.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.contain{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+.info{
+    margin-right: 20px;
+}
+.conteneur > div{
+    margin-left: auto;
+}
+img{
+    margin-right: 10px;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+    transition: transform 500ms;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.haut_profil{
+    background-color: rgb(0, 0, 0);
+    height: 180px;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+hr{
+    background-color: rgb(78, 78, 78);
+    border-radius: 5px;
+}
+form{
+    margin-top: 10px;
+}
+input{
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+}
+#form{
+    display: none;
+}
+button,  input[type="submit"]{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 75);
+    color: white;
+    transition-duration: 1s;
+}
+button:hover, input[type="submit"]:hover{
+    background-color: rgb(0, 0, 39);
+    transition-duration: 1s;
+}

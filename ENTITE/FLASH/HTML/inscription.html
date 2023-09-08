@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="up.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/inscription.css">
+    <title> Inscription </title>
+</head> 
+<body>  
+    <div class="body">
+        <h2 style="margin-top: 1%;"> Inscription </h2>
+        <form style="width: 30%;" action="../PHP/inscription.php" method="post">
+            <div class="logo_input">
+                <img src="../IMAGE/nom.jpg" >
+                <input style="border: none;" type="text" name="nom_etudiant" id="nom_etudiant" placeholder=" Nom " required>
+            </div>
+            <div class="logo_input">
+                <img src="../IMAGE/prenom.jpg" >
+                <input style="border: none;" type="text" name="prenom_etudiant" id="prenom_etudiant" placeholder=" Prénom " required>
+            </div>
+            <div class="logo_input">
+                <img src="../IMAGE/birthday.jpg" >
+                <input style="border: none;" type="date" name="birthday_etudiant" id="birthday_etudiant" placeholder=" Date de naissance" required>
+            </div>
+            <!-- <div class="logo_input">
+                <img src="../IMAGE/entite.jpg" >
+                <select style="border: none;" name="entite" id="entite" required>
+                    <option value="FASEG">FASEG</option>
+                    <option value="FLASH">FLASH</option>
+                    <option value="IUT">IUT</option>
+                    <option value="ENSPD">ENSPD</option>
+                    <option value="FM">FM</option>
+                    <option value="FA">FA</option>
+                    <option value="ENATSE">ENATSE</option>
+                    <option value="IFSIO">IFSIO</option>
+                    <option value="FDSP">FDSP</option>
+                </select>
+            </div> -->
+            <div class="logo_input">
+                <img src="../IMAGE/matricule.jpg" >
+                <input style="border: none;" type="number" name="matricule_etudiant" id="matricule_etudiant" placeholder=" Numéro matricule" required>
+            </div>
+            <div class="logo_input">
+                <img src="../IMAGE/mail.jpg" >
+                <input style="border: none;" type="email" name="email_etudiant" id="email_etudiant" placeholder="Adresse mail" required>
+            </div>
+            <div class="logo_input">
+                <img style="color: black;" src="../IMAGE/password.jpg" >
+                <input  style="border: none;" type="password" name="mot_de_passe_etud" id="mot_de_passe_etud" placeholder="Mot de passe" required>
+            </div>
+            <button type="submit" name="inscription"> Inscription </button>
+            <p> Vous aviez déjà  un compte? <a href="connexion.html"> Connectez-vous </a></p>
+        </form>
+    </div>
+</body>
+</html>

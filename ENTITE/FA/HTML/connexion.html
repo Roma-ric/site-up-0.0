@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="up.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/connexion.css">
+    <title> Connexion </title>
+</head>
+<body>   
+    <!-- 
+    <div id="animatio" class="animation">
+        <div id="boutto"> </div>
+        <div id="boutt"> </div>
+        <div id="bout"> </div>
+    </div>
+    <script>
+        var boutto = document.getElementById("boutto");
+        var boutt = document.getElementById("boutt");
+        var bout = document.getElementById("bout");
+        var formulaire = document.getElementById("formulaire");
+        var animation = document.getElementById("animatio");
+        window.addEventListener( "load", function () {
+
+            boutt.style.width = "150px";
+            boutt.style.height = "150px";
+            boutt.style.transitionDuration = "3s";
+            bout.style.width = "100px";
+            bout.style.height = "100px";
+            bout.style.transitionDuration = "3s";
+            boutto.style.width = "200px";
+            boutto.style.height = "200px";
+            boutto.style.transitionDuration = "3s";
+            boutto.style.marginLeft = "100px" ;
+            var i = 50;
+            var j = 10;
+            while (i < 50000 && j < 1000) {
+                boutto.style.transform = "rotate("+i+"deg)";
+                boutto.style.marginLeft = j+"px" ;
+                boutto.style.transitionDuration = "3s"              
+                boutt.style.transform = "rotate("+i+"deg)";
+                boutt.style.marginLeft = j+"px" ;
+                boutt.style.transitionDuration = "3s";
+                bout.style.transform = "rotate("+i+"deg)";
+                bout.style.marginLeft = j+"px" ;
+                bout.style.transitionDuration = "3s";
+                i = i + 100;
+                j = j + 50;
+            }
+            
+            formulaire.style.zIndex = "1";
+            animation.style.zIndex = "0";
+        });
+    </script>
+     -->
+    <div id="formulaire" class="body">
+        <h2 style="margin-top: 8%;"> Connexion </h2>
+        <form style="width: 30%;" action="../PHP/connexion.php" method="post">
+            <!-- <div class="logo_input">
+                <img src="../IMAGE/entite.jpg" >
+                <select style="border: none;" name="entite" id="entite" required>
+                    <option value="FASEG">FASEG</option>
+                    <option value="FLASH">FLASH</option>
+                    <option value="IUT">IUT</option>
+                    <option value="ENSPD">ENSPD</option>
+                    <option value="FM">FM</option>
+                    <option value="FA">FA</option>
+                    <option value="ENATSE">ENATSE</option>
+                    <option value="IFSIO">IFSIO</option> 
+                    <option value="FDSP">FDSP</option>
+                </select>
+            </div> -->
+            <div class="logo_input">
+                <img src="../IMAGE/mail.jpg" >
+                <input style="border: none;" type="email" name="email" id="email" placeholder="Adresse mail" required>
+            </div>
+            <div class="logo_input">
+                <img style="color: black;" src="../IMAGE/password.jpg" >
+                <input  style="border: none;" type="password" name="mot_de_passe" id="mot_de_passe" placeholder="Mot de passe" required>
+            </div>
+            <button type="submit"> Connexion </button>
+            <p> Vous n'aviez pas encore un compte? <a href="inscription.html"> Inscrivez-vous </a></p>
+            
+        </form>
+    </div>
+</body>
+</html>

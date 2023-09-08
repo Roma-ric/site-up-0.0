@@ -1,0 +1,13 @@
+table, th, tr, td {
+    border: 1px solid grey;
+    border-spacing: 0;
+}
+table{
+    margin: 10px;
+    width: 98%;
+    /* border-radius: 2px; */
+    text-align: justify;
+}
+td{
+    padding: 10px;
+}

@@ -1,0 +1,78 @@
+body{
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+}
+.campus1{
+    display: flex; 
+    justify-content: space-between;
+}
+.campus{
+    display: flex; 
+    justify-content: center;
+}
+img{
+    width: 200px;
+}
+.campus1 > a {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 75);
+    border-radius: 10px;
+    margin: 15px;
+    transition: transform 500ms;
+} 
+.campus > a {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 75);
+    border-radius: 10px;
+    margin: 15px;
+    transition: transform 500ms;
+} 
+.campus1 > a:hover {
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+.campus > a:hover {
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+.campus1 > a > div > h4{
+    height: auto;
+    width: 90%;
+    color: white;
+    background-color: rgb(0, 0, 75);
+    border-radius: 10px;
+}
+.campus > a > div > h4{
+    height: auto;
+    width: 90%;
+    color: white;
+    background-color: rgb(0, 0, 75);
+    border-radius: 10px;
+}
+/* .campus1 > div > h4 > img{
+    width: 100px;
+    height: 100px; 
+} */
+.campus1 > a > div > h4 > img > p{
+    height: auto;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid rgb(0, 0, 75);
+    border-radius: 10px;
+}
+.h1{
+    color: rgb(0, 0, 75); 
+    transition-duration: 1s;
+}
+.h1:hover{
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+

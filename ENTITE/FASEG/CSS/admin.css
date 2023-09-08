@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.admin{
+    margin-top: 0;
+    width: 100%;
+    /* background-image: url(../IMAGE/fond_c_d.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.directeur, .directeur_ajoint, .chef_sco, .secretaire_generale{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background: linear-gradient(to right, rgba(82, 82, 82, 0.5) 50%,rgba(27, 27, 27, 0.5) 50%); */
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+}
+.directeur > center > .infos, .directeur>img, .directeur>.details{
+    width: auto;
+}
+.infos{
+    background-color: rgb(30, 30, 31);
+    border: none;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-left: 0;
+    margin-top: 25%;
+    color: white;
+}
+
+.haut > img {
+    width: 60px ;
+    height: 60px;
+}

@@ -1,0 +1,63 @@
+body{
+    background-image: url(../IMAGE/im-02.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    /* margin-left: 33%;  */
+    margin-top: 5%;
+    justify-content: center;
+}
+.element1, .element2, .element3, .element4, .element5{
+    width: 200px;
+    height: 200px;
+    margin: 20px ;
+    margin-top: 10px; 
+    border-radius: 50%;
+    
+}
+.element1{
+    box-shadow: -10px -10px 10px rgb(187, 174, 0);
+    transition: 1s;
+}
+.element2{
+    box-shadow: -10px -10px 10px rgb(182, 88, 0);
+    transition: 1s;
+}
+.element3{
+    box-shadow: -10px -10px 10px rgb(54, 170, 0);
+    transition: 1s;
+}
+.element4{
+    box-shadow: -10px -10px 10px rgb(0, 158, 92);
+    transition: 1s;
+}
+.element5{
+    box-shadow: -10px -10px 10px rgb(0, 74, 172);
+    transition: 1s;
+    margin-top: 50%;
+}
+.element1:hover{
+    box-shadow: 10px 10px 10px rgb(187, 174, 0);
+}
+.element2:hover{
+    box-shadow: 10px 10px 10px rgb(182, 88, 0);
+}
+.element3:hover{
+    box-shadow: 10px 10px 10px rgb(54, 170, 0);
+}
+.element4:hover{
+    box-shadow: 10px 10px 10px rgb(0, 158, 92);
+}
+.element5:hover{
+    box-shadow: 10px 10px 10px rgb(0, 74, 172);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
